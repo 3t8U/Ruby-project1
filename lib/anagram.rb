@@ -12,7 +12,7 @@ def prepare_words
   input_array = array
 
   @word1 = push(fetch(File.read("lib/inputs/word1.txt").downcase.strip))
-  # @word2 = push(fetch(File.read("lib/inputs/word2.txt").downcase.strip))
+  @word2 = push(fetch(File.read("lib/inputs/word2.txt").downcase.strip))
 return input_array
 
 end

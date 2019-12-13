@@ -11,5 +11,5 @@ describe('Anagram') do
   #     end
 
   it("Takes two inputs from separate Text files and combines them into one array")
-      expect(@word1.prepare_words).to(eq(["tea", "eat"]))
+      expect(@word1.prepare_words, @word2.prepare_words).to(eq(["tea", "eat"]))
     end
