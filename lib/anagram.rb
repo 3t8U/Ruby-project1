@@ -1,17 +1,14 @@
 class Anagram
 
-  
+
+
+  def prepare(string)
+    string.downcase.strip.sort.join
+  end
 
 
 
 
-  # def same_length
-  #   @word1 = "tea"
-  #   @word2 = "eat"
-  #   if (@word1.split.length == @word2.split.length)
-  #     return true
-  #   else return false
-  # end
 
 
 
@@ -28,4 +25,3 @@ class Anagram
 
 
 end
-# end

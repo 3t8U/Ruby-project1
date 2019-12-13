@@ -10,6 +10,6 @@ describe('Anagram') do
   #         expect(@word1.split.length == @word2.split.length("tea", "eat")).to(eq("true"))
   #     end
 
-  it("Takes two inputs from separate Text files and combines them into one array")
-      expect(@word1.prepare_words, @word2.prepare_words).to(eq(["tea", "eat"]))
+  it("Takes a string, converts it to lowercase, removes all whitespace, sorts the string characters alphabetically and rejoins the letters ")
+      expect("HoRSE".prepare).to(eq(["e", "h", "o", "r", "s"]))
     end
