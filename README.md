@@ -1,12 +1,12 @@
-# _1-900-CAL-ADOC_
+# _AnaGRAMer_
 
-#### _This is an application to locate a medical provider tailored to a specific ailment_
+#### _This is an application that determines if two words are an anagram_
 
 #### By _**Nate Powers**_
 
 ## Description
 
-_This application allows the user to locate a local Portland medical provider by specialty, name or user ailment._
+_This application allows the user to input two words and discover if they are an anagram or not_
 
 _https://3t8u.github._
 
@@ -42,11 +42,6 @@ _https://3t8u.github._
 ## Setup/Installation Requirements
 
 * _Open HTML page in browser_
-* _Enter your ailment_
-* _or_
-* _Enter a provider name_
-* _Click the submit button_
-* _Find your provider!_
 
 
 __
