@@ -12,26 +12,17 @@ _https://3t8u.github._
 
 ##Specs
 
-* _The application connects to the Better Doctor API_
+* _The application takes two words and makes them lowercase_
 
-* _The application creates a function that allows the user to search for a provider in the Portland Area_
+* _The application checks to see if the words contain vowels and that they, are in fact words_
 
-* _Example Input: User enters a provider name "Kimi Fey Powers_
-* _Example Output: Kimi
-                  Fey Powers
-                  640 NE 71st ave  
-                  980-229-9980
-                  currently accepting patients
-                  "Short Bio"_
+* _The application analyzes the words to determine if they are the same length_
 
-* _The application creates a function that gives a list of Portland based providers that specialize in the ailment selected by the user_
+* _If the words are the same length  and are actual words then,the words are checked to see if they are anagrams by containing the same letters_
 
-  * _Example Input: User selects "Crohns" from drop down menu
-  * _Example Output: Availible providers in the Portland area:
-                  Kimi Fey Powers PA-c
-                  John Doctor Md
-                  Veronica Scars Md_
+* _If the words are not anagrams, they are checked to see if they are anti grams_
 
+* _The application checks multiple words against the same criteria_
 
 
 
@@ -56,7 +47,7 @@ _Any questions, comments or contributions please contact Nate Powers (Russellspr
 
 ## Technologies Used
 
-_HTML, CSS, Bootstrap, Git, jQuery and Javascript, Webpack, Jest, Nodejs, Eslinter and several anonymous sources deep within the medical community_
+_Ruby, GEM & Rspec_
 
 ### License
 
