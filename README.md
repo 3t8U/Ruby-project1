@@ -18,7 +18,7 @@ _https://3t8u.github._
 
 * _The application analyzes the words to determine if they are the same length_
 
-* _If the words are the same length  and are actual words then,the words are checked to see if they are anagrams by containing the same letters_
+* _If the words are the same length  and are actual words then, the words are checked to see if they are anagrams by containing the same letters_
 
 * _If the words are not anagrams, they are checked to see if they are anti grams_
 

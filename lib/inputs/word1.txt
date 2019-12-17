@@ -25,3 +25,7 @@ def same_length
   else return false
 end
 end
+
+# def prepare(string)
+#   string.downcase.strip.sort.join
+# end
