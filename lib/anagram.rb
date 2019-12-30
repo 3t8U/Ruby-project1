@@ -10,6 +10,7 @@ class Anagram
   def check_int
     if (@word1.class == Integer) || (@word2.class == Integer)
       return false
+      end
     end
 
     def basic(string1, string2)
@@ -23,5 +24,4 @@ class Anagram
         return "Sorry, wrong number for an anagram"
       end
     end
-  end #why?
-end #why?
+end
