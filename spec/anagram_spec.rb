@@ -7,7 +7,7 @@ require 'pry'
 
 describe('#Anagram') do
   it("Takes a string, converts it to lowercase, removes all whitespace ") do
-  stripped = Anagram.new("HORse", "cAt")
-      expect(stripped.basic([], [])).to(eq(["horse"],["cat"]))
+  same_length = Anagram.new("HORse","cAt")
+      expect(same_length.check_length).to(eq("Sorry, wrong number for an anagram"))
     end
 end

@@ -29,3 +29,10 @@ end
 # def prepare(string)
 #   string.downcase.strip.sort.join
 # end
+
+
+  def check_int
+    if (@word1.class == Integer) || (@word2.class == Integer)
+      return false
+      end
+    end
