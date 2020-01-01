@@ -1,8 +1,5 @@
 tea
-def initialize(word)
-  @word1 = word
-  @word2 = word
-end
+
 
 
 
