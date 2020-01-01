@@ -1,8 +1,5 @@
 class Anagram
 
-
-
-
   def initialize(string1, string2)
     @word1 = basic(string1)
     @word2 = basic(string2)
@@ -16,9 +13,9 @@ class Anagram
   def check_char
     if (@word1.scan(/[!@#$%^&*()_+{}\[\]:;'"\/\\?><.,]/).empty?) && (@word2.scan(/[!@#$%^&*()_+{}\[\]:;'"\/\\?><.,]/).empty?)
       return "winner, winner"
-      end
-    return "bullshit"
     end
+    return "bullshit"
+  end
 
   def check_length
     if (@word1.length) != (@word2.length)
@@ -37,8 +34,8 @@ class Anagram
     if(@word1.split("").sort) == (@word2.split("").sort)
       return "You're Anagramming!"
     else "Sorry, better luck next time"
+    end
   end
-end
 
   def rebel_grams
     if @word1.chars.difference(@word2.chars).empty?
