@@ -26,4 +26,9 @@ describe('#Anagram') do
     anagram_chk = Anagram.new("TaC","cAt")
     expect(anagram_chk.ana_grams).to(eq("You're Anagramming!"))
   end
+
+  it("Determines whether the inputed strings are anagrams") do
+    antigram_chk = Anagram.new("TaC","cAt")
+    expect(antigram_chk.rebel_grams).to(eq("not and ANTIgram!"))
+  end
 end

@@ -40,6 +40,13 @@ class Anagram
   end
 end
 
+  def rebel_grams
+    if @word1.chars.difference(@word2.chars).empty?
+      return "not and ANTIgram!"
+    else "ANTI-gram!!"
+    end
+  end
+
 
 
 
