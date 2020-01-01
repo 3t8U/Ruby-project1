@@ -47,7 +47,8 @@ end
     end
   end
 
-
+  def word_o_gram
+  end
 
 
 end
