@@ -21,4 +21,9 @@ describe('#Anagram') do
     actual_word = Anagram.new("HORse","cAt")
     expect(actual_word.v_check).to(eq("You've got words"))
   end
+
+  it("Determines whether the inputed strings are anagrams") do
+    anagram_chk = Anagram.new("TaC","cAt")
+    expect(anagram_chk.ana_grams).to(eq("You're Anagramming!"))
+  end
 end

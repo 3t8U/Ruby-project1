@@ -33,6 +33,12 @@ class Anagram
     end
   end
 
+  def ana_grams
+    if(@word1.split("").sort) == (@word2.split("").sort)
+      return "You're Anagramming!"
+    else "Sorry, better luck next time"
+  end
+end
 
 
 
