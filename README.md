@@ -1,4 +1,4 @@
-# _AnaGRAMer_
+# _Anagramm'd_
 
 #### _This is an application that determines if two words are an anagram_
 
@@ -8,15 +8,17 @@
 
 _This application allows the user to input two words and discover if they are an anagram or not_
 
-_https://3t8u.github._
+_https://github.com/3t8U/Ruby-project1_
 
 ##Specs
 
-* _The application takes two words and makes them lowercase_
+* _The application takes two words, makes them lowercase and eliminates all whitespace_
 
-* _The application checks to see if the words contain vowels and that they, are in fact words_
+* _The application checks to see if the words contains any special characters_
 
 * _The application analyzes the words to determine if they are the same length_
+
+* _The application checks to see if the words contain vowels and that they, are in fact words_
 
 * _If the words are the same length  and are actual words then, the words are checked to see if they are anagrams by containing the same letters_
 
@@ -26,16 +28,10 @@ _https://3t8u.github._
 
 
 
-
-
-
-
 ## Setup/Installation Requirements
 
-* _Open HTML page in browser_
+* _Install GEMs and enter two words or sentences_
 
-
-__
 
 ## Known Bugs
 

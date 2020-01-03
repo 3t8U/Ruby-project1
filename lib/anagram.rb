@@ -39,13 +39,8 @@ class Anagram
 
   def rebel_grams
     if @word1.chars.difference(@word2.chars).empty?
-      return "not and ANTIgram!"
+      return "not an ANTI-gram!"
     else "ANTI-gram!!"
     end
   end
-
-  def word_o_gram
-  end
-
-
 end

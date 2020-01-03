@@ -26,7 +26,7 @@ describe('#Anagram') do
 
   it("Determines whether the inputed strings are antigrams") do
     antigram_chk = Anagram.new("TaC","cAt")
-    expect(antigram_chk.rebel_grams).to(eq("not and ANTIgram!"))
+    expect(antigram_chk.rebel_grams).to(eq("not an ANTI-gram!"))
   end
 
   it("Determines whether multi-word inputed strings are anagrams") do
@@ -36,6 +36,6 @@ describe('#Anagram') do
 
   it("Determines whether the multi-word inputed strings are antigrams") do
     antigram_chk = Anagram.new("TaC bad"," daB CAt")
-    expect(antigram_chk.rebel_grams).to(eq("not and ANTIgram!"))
+    expect(antigram_chk.rebel_grams).to(eq("not an ANTI-gram!"))
   end
 end
