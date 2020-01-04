@@ -58,7 +58,7 @@ _Any questions, comments or contributions please contact Nate Powers (Russellspr
 
 ## Technologies Used
 
-_Ruby, GEM ana Rspec_
+_Ruby, GEM, Rspec and a gram of word play_
 
 ### License
 
