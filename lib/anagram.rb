@@ -13,8 +13,9 @@ class Anagram
   def check_char
     if (@word1.scan(/[!@#$%^&*()_+{}\[\]:;'"\/\\?><.,]/).empty?) && (@word2.scan(/[!@#$%^&*()_+{}\[\]:;'"\/\\?><.,]/).empty?)
       return "winner, winner"
+    else  "bullshit"
     end
-    return "bullshit"
+
   end
 
   def check_length
