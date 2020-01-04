@@ -1,4 +1,19 @@
-# _Anagramm'd_
+# _                                                                                                    
+
+       _                                                                                 68b    ___
+      dM.                                                                                Y89    `MM
+     ,MMb                                                                                 9      MM
+     d'YM.   ___  __      ___     __     ___  __    ___    ___  __    __  ___  __    __  /   ____MM
+    ,P `Mb   `MM 6MMb   6MMMMb   6MMbMMM `MM 6MM  6MMMMb   `MM 6MMb  6MMb `MM 6MMb  6MMb    6MMMMMM
+    d'  YM.   MMM9 `Mb 8M'  `Mb 6M'`Mb    MM69 " 8M'  `Mb   MM69 `MM69 `Mb MM69 `MM69 `Mb  6M'  `MM
+   ,P   `Mb   MM'   MM     ,oMM MM  MM    MM'        ,oMM   MM'   MM'   MM MM'   MM'   MM  MM    MM
+   d'    YM.  MM    MM ,6MM9'MM YM.,M9    MM     ,6MM9'MM   MM    MM    MM MM    MM    MM  MM    MM
+  ,MMMMMMMMb  MM    MM MM'   MM  YMM9     MM     MM'   MM   MM    MM    MM MM    MM    MM  MM    MM
+  d'      YM. MM    MM MM.  ,MM (M        MM     MM.  ,MM   MM    MM    MM MM    MM    MM  YM.  ,MM
+_dM_     _dMM_MM_  _MM_`YMMM9'Yb.YMMMMb. _MM_    `YMMM9'Yb._MM_  _MM_  _MM_MM_  _MM_  _MM_  YMMMMMM_
+                                6M    Yb                                                            
+                                YM.   d9                                                            
+                                 YMMMM9                                                             _
 
 #### _This is an application that determines if two words are an anagram_
 
@@ -43,7 +58,7 @@ _Any questions, comments or contributions please contact Nate Powers (Russellspr
 
 ## Technologies Used
 
-_Ruby, GEM & Rspec_
+_Ruby, GEM ana Rspec_
 
 ### License
 
